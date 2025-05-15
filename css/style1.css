@@ -1,0 +1,66 @@
+header {
+  background-color: #237A41; 
+  color: #CFE8C9;            
+  font-size: 36px;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #4CAF50; 
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+nav a {
+  background-color: #CFE8C9;
+  color: #237A41;            
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #4B2E2B; 
+  color: #FFFCD4;            
+}
+
+.sobre-nos {
+  background-color: #FFFCD4;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.sobre-nos h2 {
+  color: #237A41;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.sobre-nos p {
+  font-size: 18px;
+  color: #237A41;
+  line-height: 1.6;
+  text-align: justify;
+}
+.circulo,
+.earth-image {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+/* Imagem do rodapé */
+footer .earth-image img {
+  display: block;
+  margin: 40px auto 20px;
+  max-width: 200px;
+}
