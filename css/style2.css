@@ -1,0 +1,165 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Georgia, serif;
+  background-color: #d9e5cc;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #31743f;
+  color: #d9d9d9;
+  padding: 40px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+header h1 {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.1;
+}
+nav {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+nav a {
+  background-color: #CFE8C9;
+  color: #237A41;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #4B2E2B;
+  color: #FFFCD4;
+}
+.logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+/* Barra de pesquisa centralizada */
+#searchBar {
+  display: block;
+  margin: 30px auto;
+  width: 60%;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #d9d9d9;
+  text-align: center;
+}
+
+/* Container de cards em linha */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Cards */
+.card {
+  width: 250px;
+  background-color: #92f592;
+  border: 2px solid #31743f;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card .logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  background: #f0f0f0;
+}
+
+/* Textos dos cards */
+.card h2 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Ícones */
+.icons {
+  margin-top: 15px;
+}
+
+.icons a {
+  margin: 0 6px;
+  color: #31743f;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: #31743f;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #66a36d;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+footer .earth-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  top: 0;
+}
